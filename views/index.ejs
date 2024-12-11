@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Homepage</title>
+  </head>
+  <body>
+    <h1>Messages</h1>
+    <ul>
+      <% messages.forEach((message) => { %>
+      <li>
+        <strong><%= message.user %>:</strong> <%= message.text %> -
+        <em><%= message.added.toLocaleString() %></em>
+      </li>
+      <% }); %>
+    </ul>
+    <a href="/new">
+      <button>New Message</button>
+    </a>
+  </body>
+</html>
