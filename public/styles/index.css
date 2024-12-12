@@ -1,0 +1,73 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-list {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+  max-width: 650px;
+  width: 100%;
+}
+
+.message-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.message-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.new-message-link {
+  margin-top: 20px;
+}
+
+.new-message-button {
+  background: #27ae60;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.new-message-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
