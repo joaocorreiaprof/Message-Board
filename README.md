@@ -44,7 +44,7 @@ The app will be available at http://localhost:3000.
 
 ## Usage
 
-1. Navigate to the homepage (/) to see a list of inspirational messages.
+1. Navigate to the homepage to see a list of inspirational messages.
 2. Click on the New Message link to go to the form where you can submit a new message.
 3. Fill in the author’s name and the message text, then submit the form.
 4. After submitting, you will be redirected back to the homepage, where the new message will be displayed.
